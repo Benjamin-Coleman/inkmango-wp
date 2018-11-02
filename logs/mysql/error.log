@@ -1,0 +1,585 @@
+2018-10-01T15:11:44.758408Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-10-01T15:11:44.759333Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 33 ...
+2018-10-01T15:11:44.770768Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-10-01T15:11:44.770797Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-10-01T15:11:44.770802Z 0 [Note] InnoDB: Uses event mutexes
+2018-10-01T15:11:44.770806Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-10-01T15:11:44.770810Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-10-01T15:11:44.770815Z 0 [Note] InnoDB: Using Linux native AIO
+2018-10-01T15:11:44.771048Z 0 [Note] InnoDB: Number of pools: 1
+2018-10-01T15:11:44.771151Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-10-01T15:11:44.772963Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2018-10-01T15:11:44.794092Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-10-01T15:11:44.795412Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-10-01T15:11:44.809648Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-10-01T15:11:44.810133Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 2588963
+2018-10-01T15:11:44.810193Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 2591784
+2018-10-01T15:11:44.810583Z 0 [Note] InnoDB: Database was not shutdown normally!
+2018-10-01T15:11:44.810594Z 0 [Note] InnoDB: Starting crash recovery.
+2018-10-01T15:11:45.025811Z 0 [Note] InnoDB: Starting an apply batch of log records to the database...
+InnoDB: Progress in percent: 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 
+2018-10-01T15:11:45.029190Z 0 [Note] InnoDB: Apply batch completed
+2018-10-01T15:11:45.131354Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-10-01T15:11:45.131377Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-10-01T15:11:45.131424Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-10-01T15:11:45.164461Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-10-01T15:11:45.166678Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-10-01T15:11:45.166696Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-10-01T15:11:45.168544Z 0 [Note] InnoDB: Waiting for purge to start
+2018-10-01T15:11:45.220588Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 2591784
+2018-10-01T15:11:45.221494Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-10-01T15:11:45.224322Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-10-01T15:11:45.224337Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-10-01T15:11:45.224434Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2018-10-01T15:11:45.224589Z 0 [Note] IPv6 is available.
+2018-10-01T15:11:45.224792Z 0 [Note]   - '::' resolves to '::';
+2018-10-01T15:11:45.224803Z 0 [Note] Server socket created on IP: '::'.
+2018-10-01T15:11:45.226784Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-10-01T15:11:45.228132Z 0 [ERROR] /usr/sbin/mysqld: Table './mysql/user' is marked as crashed and should be repaired
+2018-10-01T15:11:45.228274Z 0 [Warning] Checking table:   './mysql/user'
+2018-10-01T15:11:45.228286Z 0 [ERROR] 1 client is using or hasn't closed the table properly
+2018-10-01T15:11:45.228752Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.228783Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.228790Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.228805Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.228809Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.228816Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.229863Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.229874Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.241005Z 0 [Note] InnoDB: Buffer pool(s) load completed at 181001 15:11:45
+2018-10-01T15:11:45.260376Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-10-01T15:11:45.269234Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2018-10-01T15:11:45.421775Z 4 [ERROR] /usr/sbin/mysqld: Table './mysql/proc' is marked as crashed and should be repaired
+2018-10-01T15:11:45.421900Z 4 [Warning] Checking table:   './mysql/proc'
+2018-10-01T15:11:45.452646Z 6 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.452670Z 6 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.452677Z 6 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.452692Z 6 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.452696Z 6 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.452704Z 6 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.452839Z 6 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:11:45.452847Z 6 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-01T15:38:02.192674Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 39472ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-01T16:14:40.191172Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 273564ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-01T16:42:43.942773Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 529054ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-01T18:09:18.168319Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2395683ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-01T20:00:47.874214Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1409825ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-01T22:27:25.732048Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-10-01T22:27:25.732889Z 0 [Note] Shutting down slave threads
+2018-10-01T22:27:25.732904Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-10-01T22:27:25.732913Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-10-01T22:27:25.732963Z 0 [Note] Binlog end
+2018-10-01T22:27:25.735026Z 0 [Note] Shutting down plugin 'ngram'
+2018-10-01T22:27:25.735045Z 0 [Note] Shutting down plugin 'partition'
+2018-10-01T22:27:25.735050Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-10-01T22:27:25.735054Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-10-01T22:27:25.735057Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-10-01T22:27:25.735082Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-10-01T22:27:25.735086Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-10-01T22:27:25.735097Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-10-01T22:27:25.735108Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-10-01T22:27:25.735111Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-10-01T22:27:25.735115Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-10-01T22:27:25.735118Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-10-01T22:27:25.735121Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-10-01T22:27:25.735124Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-10-01T22:27:25.735128Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-10-01T22:27:25.735131Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-10-01T22:27:25.735134Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-10-01T22:27:25.735206Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-10-01T22:27:25.735209Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-10-01T22:27:25.735211Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-10-01T22:27:25.735213Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-10-01T22:27:25.735216Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-10-01T22:27:25.735220Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-10-01T22:27:25.735222Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-10-01T22:27:25.735224Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-10-01T22:27:25.735225Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-10-01T22:27:25.735228Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-10-01T22:27:25.735230Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-10-01T22:27:25.735232Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-10-01T22:27:25.735233Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-10-01T22:27:25.735235Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-10-01T22:27:25.735237Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-10-01T22:27:25.735239Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-10-01T22:27:25.735241Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-10-01T22:27:25.735243Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-10-01T22:27:25.735245Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-10-01T22:27:25.735247Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-10-01T22:27:25.735249Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-10-01T22:27:25.735303Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-10-01T22:27:25.735645Z 0 [Note] InnoDB: Starting shutdown...
+2018-10-01T22:27:25.836461Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2018-10-01T22:27:25.836716Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 181001 22:27:25
+2018-10-01T22:27:27.350425Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4054557
+2018-10-01T22:27:27.350747Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-10-01T22:27:27.350757Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-10-01T22:27:27.350761Z 0 [Note] Shutting down plugin 'CSV'
+2018-10-01T22:27:27.350765Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-10-01T22:27:27.350767Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-10-01T22:27:27.350890Z 0 [Note] Shutting down plugin 'binlog'
+2018-10-01T22:27:27.351332Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2018-10-02T14:50:18.563604Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-10-02T14:50:18.565008Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 67 ...
+2018-10-02T14:50:18.574100Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-10-02T14:50:18.574115Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-10-02T14:50:18.574118Z 0 [Note] InnoDB: Uses event mutexes
+2018-10-02T14:50:18.574121Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-10-02T14:50:18.574123Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-10-02T14:50:18.574129Z 0 [Note] InnoDB: Using Linux native AIO
+2018-10-02T14:50:18.574280Z 0 [Note] InnoDB: Number of pools: 1
+2018-10-02T14:50:18.574355Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-10-02T14:50:18.575456Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2018-10-02T14:50:18.576879Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-10-02T14:50:18.583445Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-10-02T14:50:18.589681Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-10-02T14:50:18.604573Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-10-02T14:50:18.604638Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-10-02T14:50:18.627601Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-10-02T14:50:18.628104Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-10-02T14:50:18.628111Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-10-02T14:50:18.628601Z 0 [Note] InnoDB: Waiting for purge to start
+2018-10-02T14:50:18.681604Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 4054557
+2018-10-02T14:50:18.681858Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-10-02T14:50:18.683979Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-10-02T14:50:18.683989Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-10-02T14:50:18.684023Z 0 [Note] IPv6 is available.
+2018-10-02T14:50:18.684031Z 0 [Note]   - '::' resolves to '::';
+2018-10-02T14:50:18.684035Z 0 [Note] Server socket created on IP: '::'.
+2018-10-02T14:50:18.685332Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2018-10-02T14:50:18.685649Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-10-02T14:50:18.686889Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-10-02T14:50:18.686917Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-02T14:50:18.686924Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-02T14:50:18.686939Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-02T14:50:18.686943Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-02T14:50:18.686951Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-10-02T14:50:18.688257Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-02T14:50:18.688271Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-02T14:50:18.693876Z 0 [Note] InnoDB: Buffer pool(s) load completed at 181002 14:50:18
+2018-10-02T14:50:18.706048Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-10-02T14:50:18.713717Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2018-10-02T17:59:14.991210Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1790824ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-02T19:53:37.518988Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 53298ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-03T01:45:33.794448Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 13846188ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-03T01:48:05.748481Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-10-03T01:48:05.748753Z 0 [Note] Shutting down slave threads
+2018-10-03T01:48:05.748765Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-10-03T01:48:05.748770Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-10-03T01:48:05.748808Z 0 [Note] Binlog end
+2018-10-03T01:48:05.757062Z 0 [Note] Shutting down plugin 'ngram'
+2018-10-03T01:48:05.757076Z 0 [Note] Shutting down plugin 'partition'
+2018-10-03T01:48:05.757079Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-10-03T01:48:05.757082Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-10-03T01:48:05.757103Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-10-03T01:48:05.757123Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-10-03T01:48:05.757126Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-10-03T01:48:05.757134Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-10-03T01:48:05.757137Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-10-03T01:48:05.757139Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-10-03T01:48:05.757140Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-10-03T01:48:05.757142Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-10-03T01:48:05.757144Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-10-03T01:48:05.757146Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-10-03T01:48:05.757148Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-10-03T01:48:05.757150Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-10-03T01:48:05.757152Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-10-03T01:48:05.757153Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-10-03T01:48:05.757155Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-10-03T01:48:05.757157Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-10-03T01:48:05.757159Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-10-03T01:48:05.757161Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-10-03T01:48:05.757163Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-10-03T01:48:05.757165Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-10-03T01:48:05.757166Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-10-03T01:48:05.757168Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-10-03T01:48:05.757170Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-10-03T01:48:05.757172Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-10-03T01:48:05.757174Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-10-03T01:48:05.757176Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-10-03T01:48:05.757177Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-10-03T01:48:05.757179Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-10-03T01:48:05.757181Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-10-03T01:48:05.757183Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-10-03T01:48:05.757185Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-10-03T01:48:05.757187Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-10-03T01:48:05.757188Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-10-03T01:48:05.757190Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-10-03T01:48:05.757234Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-10-03T01:48:05.757362Z 0 [Note] InnoDB: Starting shutdown...
+2018-10-03T01:48:05.858448Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2018-10-03T01:48:05.859238Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 181003  1:48:05
+2018-10-03T01:48:06.867914Z 0 [Note] InnoDB: Shutdown completed; log sequence number 4746043
+2018-10-03T01:48:06.868616Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-10-03T01:48:06.868636Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-10-03T01:48:06.868643Z 0 [Note] Shutting down plugin 'CSV'
+2018-10-03T01:48:06.868648Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-10-03T01:48:06.868652Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-10-03T01:48:06.868839Z 0 [Note] Shutting down plugin 'binlog'
+2018-10-03T01:48:06.869415Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2018-10-08T16:46:29.004198Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-10-08T16:46:29.004464Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 51 ...
+2018-10-08T16:46:29.017140Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-10-08T16:46:29.017158Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-10-08T16:46:29.017161Z 0 [Note] InnoDB: Uses event mutexes
+2018-10-08T16:46:29.017164Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-10-08T16:46:29.017167Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-10-08T16:46:29.017169Z 0 [Note] InnoDB: Using Linux native AIO
+2018-10-08T16:46:29.017326Z 0 [Note] InnoDB: Number of pools: 1
+2018-10-08T16:46:29.017405Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-10-08T16:46:29.018587Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2018-10-08T16:46:29.026159Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-10-08T16:46:29.033912Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-10-08T16:46:29.040187Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-10-08T16:46:29.059481Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-10-08T16:46:29.059552Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-10-08T16:46:29.091755Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-10-08T16:46:29.092249Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-10-08T16:46:29.092258Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-10-08T16:46:29.094431Z 0 [Note] InnoDB: Waiting for purge to start
+2018-10-08T16:46:29.148634Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 4746043
+2018-10-08T16:46:29.149190Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-10-08T16:46:29.150802Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-10-08T16:46:29.150817Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-10-08T16:46:29.150857Z 0 [Note] IPv6 is available.
+2018-10-08T16:46:29.150865Z 0 [Note]   - '::' resolves to '::';
+2018-10-08T16:46:29.150870Z 0 [Note] Server socket created on IP: '::'.
+2018-10-08T16:46:29.152566Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-10-08T16:46:29.153505Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-10-08T16:46:29.153529Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-08T16:46:29.153536Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-08T16:46:29.153550Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-08T16:46:29.153554Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-08T16:46:29.153561Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-10-08T16:46:29.154700Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-08T16:46:29.154713Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-08T16:46:29.159604Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-10-08T16:46:29.159815Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2018-10-08T16:46:29.165516Z 0 [Note] InnoDB: Buffer pool(s) load completed at 181008 16:46:29
+2018-10-08T16:46:29.174340Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2018-10-08T18:49:41.793307Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5362366ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-08T20:14:21.933458Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2000544ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-08T21:56:11.683094Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 367963ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-09T02:23:05.581380Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 15995878ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-09T04:13:03.971300Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3318338ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-09T14:21:32.154426Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 36489164ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-09T16:04:43.499357Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 670076ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-09T18:38:36.249254Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 3143972ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-10T02:19:30.465337Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 12933638ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-10T14:38:09.413273Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 36638903ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-10T17:41:06.723289Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2646935ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-10T19:10:19.008688Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 91954ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-11T14:47:04.987247Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 59225991ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-11T15:06:12.463652Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 45729ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-11T18:21:32.425263Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 666802ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-12T03:38:19.650251Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 20291510ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-12T15:01:26.457280Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 37706671ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-12T15:36:28.711469Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 16912ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-12T20:54:53.807506Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-10-12T20:54:53.808122Z 0 [Note] Shutting down slave threads
+2018-10-12T20:54:53.808135Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-10-12T20:54:53.808143Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-10-12T20:54:53.808209Z 0 [Note] Binlog end
+2018-10-12T20:54:53.811603Z 0 [Note] Shutting down plugin 'ngram'
+2018-10-12T20:54:53.811619Z 0 [Note] Shutting down plugin 'partition'
+2018-10-12T20:54:53.811623Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-10-12T20:54:53.811626Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-10-12T20:54:53.811628Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-10-12T20:54:53.811647Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-10-12T20:54:53.811650Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-10-12T20:54:53.811663Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-10-12T20:54:53.811667Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-10-12T20:54:53.811669Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-10-12T20:54:53.811671Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-10-12T20:54:53.811673Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-10-12T20:54:53.811675Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-10-12T20:54:53.811677Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-10-12T20:54:53.811678Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-10-12T20:54:53.811680Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-10-12T20:54:53.811682Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-10-12T20:54:53.811684Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-10-12T20:54:53.811686Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-10-12T20:54:53.811688Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-10-12T20:54:53.811690Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-10-12T20:54:53.811692Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-10-12T20:54:53.811694Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-10-12T20:54:53.811696Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-10-12T20:54:53.811697Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-10-12T20:54:53.811699Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-10-12T20:54:53.811701Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-10-12T20:54:53.811703Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-10-12T20:54:53.811705Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-10-12T20:54:53.811707Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-10-12T20:54:53.811710Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-10-12T20:54:53.811714Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-10-12T20:54:53.811716Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-10-12T20:54:53.811718Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-10-12T20:54:53.811720Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-10-12T20:54:53.811722Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-10-12T20:54:53.811724Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-10-12T20:54:53.811726Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-10-12T20:54:53.811772Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-10-12T20:54:53.811926Z 0 [Note] InnoDB: Starting shutdown...
+2018-10-12T20:54:53.912297Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2018-10-12T20:54:53.912488Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 181012 20:54:53
+2018-10-12T20:54:55.035008Z 0 [Note] InnoDB: Shutdown completed; log sequence number 5446287
+2018-10-12T20:54:55.035429Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-10-12T20:54:55.035440Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-10-12T20:54:55.035444Z 0 [Note] Shutting down plugin 'CSV'
+2018-10-12T20:54:55.035447Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-10-12T20:54:55.035449Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-10-12T20:54:55.035558Z 0 [Note] Shutting down plugin 'binlog'
+2018-10-12T20:54:55.036026Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2018-10-16T18:01:16.113485Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-10-16T18:01:16.113755Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 52 ...
+2018-10-16T18:01:16.124880Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-10-16T18:01:16.124905Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-10-16T18:01:16.124909Z 0 [Note] InnoDB: Uses event mutexes
+2018-10-16T18:01:16.124912Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-10-16T18:01:16.124915Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-10-16T18:01:16.124922Z 0 [Note] InnoDB: Using Linux native AIO
+2018-10-16T18:01:16.125153Z 0 [Note] InnoDB: Number of pools: 1
+2018-10-16T18:01:16.125242Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-10-16T18:01:16.126568Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2018-10-16T18:01:16.128112Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-10-16T18:01:16.133374Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-10-16T18:01:16.140350Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-10-16T18:01:16.160413Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-10-16T18:01:16.160493Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-10-16T18:01:16.195391Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-10-16T18:01:16.196154Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-10-16T18:01:16.196172Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-10-16T18:01:16.196576Z 0 [Note] InnoDB: Waiting for purge to start
+2018-10-16T18:01:16.247197Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 5446287
+2018-10-16T18:01:16.247931Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-10-16T18:01:16.249295Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-10-16T18:01:16.249307Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-10-16T18:01:16.249347Z 0 [Note] IPv6 is available.
+2018-10-16T18:01:16.249356Z 0 [Note]   - '::' resolves to '::';
+2018-10-16T18:01:16.249361Z 0 [Note] Server socket created on IP: '::'.
+2018-10-16T18:01:16.253490Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-10-16T18:01:16.254628Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-10-16T18:01:16.254654Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-16T18:01:16.254661Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-16T18:01:16.254677Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-16T18:01:16.254680Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-16T18:01:16.254688Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-10-16T18:01:16.255770Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-16T18:01:16.255783Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-16T18:01:16.262054Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-10-16T18:01:16.262178Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2018-10-16T18:01:16.271755Z 0 [Note] InnoDB: Buffer pool(s) load completed at 181016 18:01:16
+2018-10-16T18:01:16.271923Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2018-10-16T20:18:34.872817Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 673180ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-10-16T21:34:33.454867Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-10-16T21:34:33.455322Z 0 [Note] Shutting down slave threads
+2018-10-16T21:34:33.455338Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-10-16T21:34:33.455348Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-10-16T21:34:33.455432Z 0 [Note] Binlog end
+2018-10-16T21:34:33.457363Z 0 [Note] Shutting down plugin 'ngram'
+2018-10-16T21:34:33.457381Z 0 [Note] Shutting down plugin 'partition'
+2018-10-16T21:34:33.457390Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-10-16T21:34:33.457393Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-10-16T21:34:33.457395Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-10-16T21:34:33.457415Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-10-16T21:34:33.457418Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-10-16T21:34:33.457428Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-10-16T21:34:33.457432Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-10-16T21:34:33.457434Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-10-16T21:34:33.457436Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-10-16T21:34:33.457438Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-10-16T21:34:33.457440Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-10-16T21:34:33.457442Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-10-16T21:34:33.457444Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-10-16T21:34:33.457445Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-10-16T21:34:33.457447Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-10-16T21:34:33.457449Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-10-16T21:34:33.457451Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-10-16T21:34:33.457453Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-10-16T21:34:33.457455Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-10-16T21:34:33.457457Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-10-16T21:34:33.457459Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-10-16T21:34:33.457461Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-10-16T21:34:33.457551Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-10-16T21:34:33.457555Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-10-16T21:34:33.457557Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-10-16T21:34:33.457559Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-10-16T21:34:33.457561Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-10-16T21:34:33.457564Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-10-16T21:34:33.457567Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-10-16T21:34:33.457657Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-10-16T21:34:33.457670Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-10-16T21:34:33.457672Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-10-16T21:34:33.457674Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-10-16T21:34:33.457676Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-10-16T21:34:33.457678Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-10-16T21:34:33.457680Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-10-16T21:34:33.457790Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-10-16T21:34:33.458083Z 0 [Note] InnoDB: Starting shutdown...
+2018-10-16T21:34:33.559031Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2018-10-16T21:34:33.559278Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 181016 21:34:33
+2018-10-16T21:34:35.275934Z 0 [Note] InnoDB: Shutdown completed; log sequence number 5618917
+2018-10-16T21:34:35.276243Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-10-16T21:34:35.276255Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-10-16T21:34:35.276260Z 0 [Note] Shutting down plugin 'CSV'
+2018-10-16T21:34:35.276263Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-10-16T21:34:35.276266Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-10-16T21:34:35.276392Z 0 [Note] Shutting down plugin 'binlog'
+2018-10-16T21:34:35.276772Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2018-10-30T14:27:17.533787Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-10-30T14:27:17.551140Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 53 ...
+2018-10-30T14:27:17.593006Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-10-30T14:27:17.593072Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-10-30T14:27:17.593077Z 0 [Note] InnoDB: Uses event mutexes
+2018-10-30T14:27:17.593081Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-10-30T14:27:17.593085Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-10-30T14:27:17.593088Z 0 [Note] InnoDB: Using Linux native AIO
+2018-10-30T14:27:17.595455Z 0 [Note] InnoDB: Number of pools: 1
+2018-10-30T14:27:17.598080Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-10-30T14:27:17.602587Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2018-10-30T14:27:17.615742Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-10-30T14:27:17.621809Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-10-30T14:27:17.639820Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-10-30T14:27:17.693719Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-10-30T14:27:17.693793Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-10-30T14:27:17.726871Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-10-30T14:27:17.727424Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-10-30T14:27:17.727436Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-10-30T14:27:17.727817Z 0 [Note] InnoDB: Waiting for purge to start
+2018-10-30T14:27:17.781887Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 5618917
+2018-10-30T14:27:17.783520Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-10-30T14:27:17.786119Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2018-10-30T14:27:17.797806Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-10-30T14:27:17.797826Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-10-30T14:27:17.798447Z 0 [Note] IPv6 is available.
+2018-10-30T14:27:17.798879Z 0 [Note]   - '::' resolves to '::';
+2018-10-30T14:27:17.798893Z 0 [Note] Server socket created on IP: '::'.
+2018-10-30T14:27:17.800826Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-10-30T14:27:17.822606Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-10-30T14:27:17.822646Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-30T14:27:17.822684Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-30T14:27:17.823395Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-30T14:27:17.823407Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-30T14:27:17.823989Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-10-30T14:27:17.848852Z 0 [Note] InnoDB: Buffer pool(s) load completed at 181030 14:27:17
+2018-10-30T14:27:17.851449Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-30T14:27:17.851468Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-30T14:27:17.904791Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-10-30T14:27:17.911414Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2018-10-30T22:43:23.224915Z 0 [Note] Giving 0 client threads a chance to die gracefully
+2018-10-30T22:43:23.225229Z 0 [Note] Shutting down slave threads
+2018-10-30T22:43:23.225256Z 0 [Note] Forcefully disconnecting 0 remaining clients
+2018-10-30T22:43:23.225267Z 0 [Note] Event Scheduler: Purging the queue. 0 events
+2018-10-30T22:43:23.225614Z 0 [Note] Binlog end
+2018-10-30T22:43:23.227570Z 0 [Note] Shutting down plugin 'ngram'
+2018-10-30T22:43:23.227587Z 0 [Note] Shutting down plugin 'partition'
+2018-10-30T22:43:23.227592Z 0 [Note] Shutting down plugin 'BLACKHOLE'
+2018-10-30T22:43:23.227596Z 0 [Note] Shutting down plugin 'ARCHIVE'
+2018-10-30T22:43:23.227598Z 0 [Note] Shutting down plugin 'PERFORMANCE_SCHEMA'
+2018-10-30T22:43:23.227614Z 0 [Note] Shutting down plugin 'MRG_MYISAM'
+2018-10-30T22:43:23.227617Z 0 [Note] Shutting down plugin 'MyISAM'
+2018-10-30T22:43:23.227624Z 0 [Note] Shutting down plugin 'INNODB_SYS_VIRTUAL'
+2018-10-30T22:43:23.227627Z 0 [Note] Shutting down plugin 'INNODB_SYS_DATAFILES'
+2018-10-30T22:43:23.227629Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESPACES'
+2018-10-30T22:43:23.227631Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN_COLS'
+2018-10-30T22:43:23.227634Z 0 [Note] Shutting down plugin 'INNODB_SYS_FOREIGN'
+2018-10-30T22:43:23.227637Z 0 [Note] Shutting down plugin 'INNODB_SYS_FIELDS'
+2018-10-30T22:43:23.227640Z 0 [Note] Shutting down plugin 'INNODB_SYS_COLUMNS'
+2018-10-30T22:43:23.227643Z 0 [Note] Shutting down plugin 'INNODB_SYS_INDEXES'
+2018-10-30T22:43:23.227646Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLESTATS'
+2018-10-30T22:43:23.227649Z 0 [Note] Shutting down plugin 'INNODB_SYS_TABLES'
+2018-10-30T22:43:23.227651Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_TABLE'
+2018-10-30T22:43:23.227653Z 0 [Note] Shutting down plugin 'INNODB_FT_INDEX_CACHE'
+2018-10-30T22:43:23.227655Z 0 [Note] Shutting down plugin 'INNODB_FT_CONFIG'
+2018-10-30T22:43:23.227657Z 0 [Note] Shutting down plugin 'INNODB_FT_BEING_DELETED'
+2018-10-30T22:43:23.227659Z 0 [Note] Shutting down plugin 'INNODB_FT_DELETED'
+2018-10-30T22:43:23.227661Z 0 [Note] Shutting down plugin 'INNODB_FT_DEFAULT_STOPWORD'
+2018-10-30T22:43:23.227663Z 0 [Note] Shutting down plugin 'INNODB_METRICS'
+2018-10-30T22:43:23.227665Z 0 [Note] Shutting down plugin 'INNODB_TEMP_TABLE_INFO'
+2018-10-30T22:43:23.227667Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_POOL_STATS'
+2018-10-30T22:43:23.227670Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE_LRU'
+2018-10-30T22:43:23.227673Z 0 [Note] Shutting down plugin 'INNODB_BUFFER_PAGE'
+2018-10-30T22:43:23.227676Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX_RESET'
+2018-10-30T22:43:23.227678Z 0 [Note] Shutting down plugin 'INNODB_CMP_PER_INDEX'
+2018-10-30T22:43:23.227679Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM_RESET'
+2018-10-30T22:43:23.227681Z 0 [Note] Shutting down plugin 'INNODB_CMPMEM'
+2018-10-30T22:43:23.227683Z 0 [Note] Shutting down plugin 'INNODB_CMP_RESET'
+2018-10-30T22:43:23.227685Z 0 [Note] Shutting down plugin 'INNODB_CMP'
+2018-10-30T22:43:23.227687Z 0 [Note] Shutting down plugin 'INNODB_LOCK_WAITS'
+2018-10-30T22:43:23.227689Z 0 [Note] Shutting down plugin 'INNODB_LOCKS'
+2018-10-30T22:43:23.227691Z 0 [Note] Shutting down plugin 'INNODB_TRX'
+2018-10-30T22:43:23.227693Z 0 [Note] Shutting down plugin 'InnoDB'
+2018-10-30T22:43:23.227765Z 0 [Note] InnoDB: FTS optimize thread exiting.
+2018-10-30T22:43:23.227945Z 0 [Note] InnoDB: Starting shutdown...
+2018-10-30T22:43:23.328450Z 0 [Note] InnoDB: Dumping buffer pool(s) to /var/lib/mysql/ib_buffer_pool
+2018-10-30T22:43:23.328728Z 0 [Note] InnoDB: Buffer pool(s) dump completed at 181030 22:43:23
+2018-10-30T22:43:24.238944Z 0 [Note] InnoDB: Shutdown completed; log sequence number 5884042
+2018-10-30T22:43:24.240627Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2018-10-30T22:43:24.240652Z 0 [Note] Shutting down plugin 'MEMORY'
+2018-10-30T22:43:24.240659Z 0 [Note] Shutting down plugin 'CSV'
+2018-10-30T22:43:24.240664Z 0 [Note] Shutting down plugin 'sha256_password'
+2018-10-30T22:43:24.240668Z 0 [Note] Shutting down plugin 'mysql_native_password'
+2018-10-30T22:43:24.240815Z 0 [Note] Shutting down plugin 'binlog'
+2018-10-30T22:43:24.241525Z 0 [Note] /usr/sbin/mysqld: Shutdown complete
+
+2018-10-31T18:42:40.546567Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2018-10-31T18:42:40.546862Z 0 [Note] /usr/sbin/mysqld (mysqld 5.7.23) starting as process 51 ...
+2018-10-31T18:42:40.550383Z 0 [Note] InnoDB: PUNCH HOLE support available
+2018-10-31T18:42:40.550414Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2018-10-31T18:42:40.550417Z 0 [Note] InnoDB: Uses event mutexes
+2018-10-31T18:42:40.550430Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2018-10-31T18:42:40.550433Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2018-10-31T18:42:40.550435Z 0 [Note] InnoDB: Using Linux native AIO
+2018-10-31T18:42:40.550608Z 0 [Note] InnoDB: Number of pools: 1
+2018-10-31T18:42:40.550696Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2018-10-31T18:42:40.552074Z 0 [Note] InnoDB: Initializing buffer pool, total size = 32M, instances = 1, chunk size = 32M
+2018-10-31T18:42:40.553751Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2018-10-31T18:42:40.564446Z 0 [Note] InnoDB: If the mysqld execution user is authorized, page cleaner thread priority can be changed. See the man page of setpriority().
+2018-10-31T18:42:40.567480Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2018-10-31T18:42:40.587918Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2018-10-31T18:42:40.587998Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2018-10-31T18:42:40.641334Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2018-10-31T18:42:40.642124Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2018-10-31T18:42:40.642144Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2018-10-31T18:42:40.642980Z 0 [Note] InnoDB: Waiting for purge to start
+2018-10-31T18:42:40.693728Z 0 [Note] InnoDB: 5.7.23 started; log sequence number 5884042
+2018-10-31T18:42:40.695138Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2018-10-31T18:42:40.706851Z 0 [Note] InnoDB: Loading buffer pool(s) from /var/lib/mysql/ib_buffer_pool
+2018-10-31T18:42:40.715505Z 0 [Note] InnoDB: Buffer pool(s) load completed at 181031 18:42:40
+2018-10-31T18:42:40.709890Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2018-10-31T18:42:40.715548Z 0 [Note] Server hostname (bind-address): '*'; port: 3306
+2018-10-31T18:42:40.715602Z 0 [Note] IPv6 is available.
+2018-10-31T18:42:40.715617Z 0 [Note]   - '::' resolves to '::';
+2018-10-31T18:42:40.715626Z 0 [Note] Server socket created on IP: '::'.
+2018-10-31T18:42:40.718043Z 0 [Warning] Insecure configuration for --pid-file: Location '/var/run/mysqld' in the path is accessible to all OS users. Consider choosing a different directory.
+2018-10-31T18:42:40.720125Z 0 [Warning] 'user' entry 'root@localhost' ignored in --skip-name-resolve mode.
+2018-10-31T18:42:40.720167Z 0 [Warning] 'user' entry 'mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-31T18:42:40.720185Z 0 [Warning] 'user' entry 'mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-31T18:42:40.720217Z 0 [Warning] 'db' entry 'performance_schema mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-31T18:42:40.720226Z 0 [Warning] 'db' entry 'sys mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-31T18:42:40.720242Z 0 [Warning] 'proxies_priv' entry '@ root@localhost' ignored in --skip-name-resolve mode.
+2018-10-31T18:42:40.738793Z 0 [Warning] 'tables_priv' entry 'user mysql.session@localhost' ignored in --skip-name-resolve mode.
+2018-10-31T18:42:40.738815Z 0 [Warning] 'tables_priv' entry 'sys_config mysql.sys@localhost' ignored in --skip-name-resolve mode.
+2018-10-31T18:42:40.755057Z 0 [Note] Event Scheduler: Loaded 0 events
+2018-10-31T18:42:40.766763Z 0 [Note] /usr/sbin/mysqld: ready for connections.
+Version: '5.7.23'  socket: '/var/run/mysqld/mysqld.sock'  port: 3306  MySQL Community Server (GPL)
+2018-11-01T02:57:16.594334Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18895084ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-01T14:24:30.783219Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 38784725ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-01T16:40:40.355485Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 8702ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-01T18:13:39.929385Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1340496ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-01T18:51:01.594282Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 825790ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-02T14:28:51.160265Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 57025288ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-02T15:32:39.060184Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 154491ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-02T18:59:22.941334Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 5477877ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-02T20:24:53.704482Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1420535ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-02T21:15:12.732838Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 2969959ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2018-11-02T21:45:11.617332Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 1789876ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
