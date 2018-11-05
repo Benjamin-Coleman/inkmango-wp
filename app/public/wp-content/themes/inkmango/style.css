@@ -653,19 +653,21 @@ a:active {
   outline: 0;
 }
 
-.nav-wrapper {
+header {
   height: 55px;
   display: block;
   position: relative;
 }
 
-header {
+.site-navigation, #primary-menu ul {
   z-index: 500;
   display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   color: #a1a1a1;
   top: 0;
-  position: fixed;
+  position: relative;
   background-color: #ffffff;
   border-bottom: 1px solid #e2e2e2;
   height: 55px;
@@ -694,12 +696,12 @@ header.skipAnimation {
   transition: none;
 }
 
-.nav-item {
+.nav-item, .page_item {
   display: block;
   text-align: center;
 }
 
-.nav-item > a {
+.nav-item > a, .page_item a {
   display: block;
   position: relative;
   height: 100%;
@@ -707,7 +709,7 @@ header.skipAnimation {
   text-decoration: none;
 }
 
-.nav-item > a > span {
+.nav-item > a > span, .page_item > a  {
   top: 50%;
   transform: translateY(-50%);
   width: 100%;

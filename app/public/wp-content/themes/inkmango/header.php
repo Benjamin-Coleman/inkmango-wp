@@ -25,7 +25,7 @@
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'inkmango' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div class="site-branding">
+		<!-- <div class="site-branding">
 			<?php
 			the_custom_logo();
 			if ( is_front_page() && is_home() ) :
@@ -42,7 +42,8 @@
 				?>
 				<p class="site-description"><?php echo $inkmango_description; /* WPCS: xss ok. */ ?></p>
 			<?php endif; ?>
-		</div><!-- .site-branding -->
+		</div> -->
+		<!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'inkmango' ); ?></button>
@@ -56,7 +57,7 @@
 		
 	</header><!-- #masthead -->
 
-	<div ref="navbarWrapper" class="nav-wrapper">
+	<!-- <div ref="navbarWrapper" class="nav-wrapper">
         <header class="active">
           <div class="nav-item">
             <a href="/popular">
@@ -92,6 +93,6 @@
             </a>
           </div>
         </header>
-      </div>
+      </div> -->
 
 	<div id="content" class="site-content">
