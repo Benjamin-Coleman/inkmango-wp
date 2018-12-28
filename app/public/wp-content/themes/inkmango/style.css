@@ -665,7 +665,7 @@ header {
   width: 100%;
   color: #a1a1a1;
   top: 0;
-  position: fixed;
+  position: relative;
   background-color: #ffffff;
   border-bottom: 1px solid #e2e2e2;
   height: 55px;
